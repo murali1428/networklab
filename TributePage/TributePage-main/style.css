@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Roboto+Slab&display=swap');
+html {
+    font-size: 10px;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto Slab',
+      'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    background-color: rgb(238, 226, 226);
+  }
+  #main>section>div{
+    text-align:justify;
+    font-family: -apple-system, BlinkMacSystemFont,'Heebo',sans-serif;
+  }
+  nav{
+    background-color:rgba(156, 154, 154, 0.733);
+  }
+  nav:hover{
+    background-color:rgba(156, 154, 154,1);
+  }
+  .nav-link{
+    margin: 0 10px;
+  }
+  .nav-link:hover{
+    font-weight: bold;
+  }
+  details{
+    margin: 25px;
+  }
+  summary{
+    cursor: pointer;
+    font-size:x-large;
+    font-weight: bold;
+    margin: 10px;
+    opacity:0.85;
+    text-align:left;
+  }
+  summary:hover{
+    opacity:1;
+  }
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 5px;
+  }
+
+ table {
+    max-width: 1200px;
+    margin: 0 auto 50px auto;
+    text-align: center;
+    line-height: 1.6;
+    border:solid black 1px;
+    box-shadow: 10px 10px 50px gray;
+  }
+  th{
+    background-color: rgb(163, 153, 139);
+    border:solid black 1px;
+    width:25%
+  }
+  
+  td {
+    border:solid black 1px;
+    border-collapse: collapse;
+    background-color: rgb(233, 221, 206);
+    opacity: 0.85;
+  }
+
+ 
+  tr:hover {
+    opacity: 1;
+    font-weight: bold;
+  }
+  .headline {
+    padding: 75px 0 25px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+  }
+  #main {
+    padding:5%;
+    padding-top: 100px;
+  }
+  @media (max-width: 800px) {
+    h1 {
+      font-size: 3.5rem;
+      line-height: 1.2;
+    }
+    .carousel-indicators{
+      position: absolute;
+      margin: 1px;
+    }
+    ol {
+      margin-block-start: 2px;
+      margin-block-end: 2px;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 20px;
+  }
+  li{
+      margin : 5px 0;
+  }
+  table{
+  box-shadow: 5px 5px 25px gray;
+  }
+  summary{
+    font-size:medium;
+    text-align:left;
+    margin:5px;
+  }
+  summary:hover{
+    font-size:large;
+  }
+}
+
+  h2 {
+    font-size: 3.25rem;
+  }
+  
+  a {
+    color: #477ca7;
+  }
+  
+  a:visited {
+    color: #74638f;
+  }
+  
+ 
+  
+  
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #img-div {
+    background: white;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  #img-caption {
+    margin: 15px 0 0px 0;
+  }
+  
+  @media (max-width: 460px) {
+    #img-caption {
+      font-size: 1.4rem;
+    }
+    table {
+      max-width: 100%;
+      font-size: small;
+      box-shadow: 5px 5px 25px gray;
+    }
+  }
+  
+  
+  blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+  }
